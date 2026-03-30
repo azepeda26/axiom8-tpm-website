@@ -44,14 +44,16 @@ export default function Home() {
   </div>
 </header>
 {/* HERO */}
-<section className="pt-28 pb-20 sm:pb-24 px-6 max-w-7xl mx-auto">
+<section className="relative pt-28 pb-20 sm:pb-24 px-6 max-w-7xl mx-auto">
+  <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
+  <div>
 
   <h2 className="mt-6 text-5xl sm:text-6xl md:text-7xl font-serif font-semibold tracking-tight leading-[1.05] max-w-4xl">
     Institutional Property Management in California
   </h2>
 
   <p className="mt-6 text-white/75 max-w-2xl text-lg leading-8">
-    Axiom8 Real Estate delivers institutional-grade property management, asset
+    IPS Real Estate delivers institutional-grade property management, asset
     oversight, and performance-driven execution for multifamily and commercial
     owners across California.
   </p>
@@ -71,6 +73,17 @@ export default function Home() {
       View Services
     </a>
   </div>
+  </div>
+
+<div className="hidden lg:block absolute top-6 left-1/2 -translate-x-1/2 translate-x-[400px]">
+  <img
+    src="/brand/ips-logo_transparent.png"
+    alt="IPS Logo"
+    className="w-full max-w-[320px] h-auto"
+  />
+</div>
+
+</div>
 </section>           
 
 {/* VALUE PROPOSITION */}
